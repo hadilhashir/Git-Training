@@ -1,0 +1,1444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>houzing</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="navigation-bar-wrapper">
+        <div class="navigation-bar-container">
+          <div class="brand">
+            <a class="brand-name" href="#"
+              ><svg
+                class="logo"
+                width="155"
+                height="49"
+                viewBox="0 0 155 49"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M66.4122 14.3608H70.0743V32H66.4122V24.749H58.9537V32H55.2916V14.3608H58.9537V21.563H66.4122V14.3608ZM79.962 32.2441C78.6274 32.2441 77.4433 31.9878 76.4098 31.4751C75.3762 30.9624 74.5624 30.2096 73.9684 29.2168C73.3824 28.224 73.0894 27.0562 73.0894 25.7134C73.0894 23.7033 73.7242 22.1164 74.9937 20.9526C76.2633 19.7889 77.9194 19.207 79.962 19.207C82.0128 19.207 83.6729 19.7889 84.9425 20.9526C86.212 22.1164 86.8468 23.7033 86.8468 25.7134C86.8468 27.7316 86.212 29.3267 84.9425 30.4985C83.6729 31.6623 82.0128 32.2441 79.962 32.2441ZM79.9254 29.4487C80.9508 29.4487 81.7768 29.1069 82.4034 28.4233C83.0382 27.7397 83.3556 26.8364 83.3556 25.7134C83.3556 24.5903 83.0382 23.687 82.4034 23.0034C81.7768 22.3198 80.9508 21.978 79.9254 21.978C78.9407 21.978 78.135 22.3239 77.5084 23.0156C76.8899 23.6992 76.5807 24.5985 76.5807 25.7134C76.5807 26.8283 76.8899 27.7316 77.5084 28.4233C78.135 29.1069 78.9407 29.4487 79.9254 29.4487ZM97.7843 19.4512H101.3V32H97.9674L97.8819 30.4863C96.9542 31.6582 95.6236 32.2441 93.8902 32.2441C92.3847 32.2441 91.2291 31.8698 90.4234 31.1211C89.6178 30.3643 89.2149 29.29 89.2149 27.8984V19.4512H92.7428V27.1416C92.7428 27.9229 92.9503 28.4966 93.3653 28.8628C93.7885 29.229 94.3338 29.4121 95.0011 29.4121C95.8149 29.4121 96.4781 29.1761 96.9908 28.7041C97.5116 28.224 97.7761 27.4468 97.7843 26.3726V19.4512ZM114.105 19.4512L108.587 29.29H113.934V32H103.595L109.088 22.1611H104.022V19.4512H114.105ZM118.316 17.5713C117.755 17.5713 117.275 17.376 116.876 16.9854C116.477 16.5866 116.278 16.1064 116.278 15.5449C116.278 14.9915 116.477 14.5195 116.876 14.1289C117.283 13.7301 117.763 13.5308 118.316 13.5308C118.862 13.5308 119.334 13.7301 119.733 14.1289C120.131 14.5195 120.331 14.9915 120.331 15.5449C120.331 16.1064 120.131 16.5866 119.733 16.9854C119.334 17.376 118.862 17.5713 118.316 17.5713ZM116.522 32V19.4512H120.062V32H116.522ZM131.109 19.207C132.615 19.207 133.771 19.5854 134.576 20.3423C135.382 21.091 135.785 22.1611 135.785 23.5527V32H132.257V24.3096C132.257 23.5202 132.045 22.9424 131.622 22.5762C131.207 22.21 130.67 22.0269 130.011 22.0269C129.628 22.0269 129.278 22.0798 128.961 22.1855C128.644 22.2913 128.351 22.4582 128.082 22.686C127.814 22.9058 127.602 23.2191 127.447 23.626C127.301 24.0329 127.224 24.5171 127.215 25.0786V32H123.7V19.4512H127.215V20.8428C128.143 19.7523 129.441 19.207 131.109 19.207ZM147.845 19.4512H151.19V31.0601C151.19 32.2563 151.031 33.298 150.714 34.1851C150.405 35.0721 149.953 35.7842 149.359 36.3213C148.765 36.8665 148.069 37.2694 147.272 37.5298C146.474 37.7902 145.563 37.9204 144.537 37.9204C141.225 37.9204 139.068 36.6224 138.067 34.0264L140.985 32.7812C141.343 33.6032 141.795 34.2095 142.34 34.6001C142.885 34.9907 143.573 35.186 144.403 35.186C146.576 35.186 147.662 33.8962 147.662 31.3164V29.8516C147.288 30.3643 146.759 30.7793 146.075 31.0967C145.4 31.4059 144.659 31.5605 143.854 31.5605C143.08 31.5605 142.344 31.4141 141.644 31.1211C140.952 30.82 140.346 30.4049 139.825 29.876C139.304 29.3389 138.889 28.6797 138.58 27.8984C138.279 27.1172 138.129 26.2708 138.129 25.3594C138.129 24.4398 138.279 23.5934 138.58 22.8203C138.889 22.0391 139.304 21.388 139.825 20.8672C140.354 20.3464 140.965 19.9395 141.656 19.6465C142.356 19.3535 143.097 19.207 143.878 19.207C144.741 19.207 145.514 19.382 146.197 19.7319C146.889 20.0737 147.41 20.5335 147.76 21.1113L147.845 19.4512ZM142.45 27.752C143.076 28.3949 143.845 28.7163 144.757 28.7163C145.668 28.7163 146.437 28.3908 147.064 27.7397C147.691 27.0887 148.004 26.2952 148.004 25.3594C148.004 24.4154 147.691 23.6178 147.064 22.9668C146.446 22.3158 145.677 21.9902 144.757 21.9902C143.829 21.9902 143.056 22.3117 142.438 22.9546C141.827 23.5894 141.522 24.391 141.522 25.3594C141.522 26.3115 141.831 27.109 142.45 27.752Z"
+                  fill="white"
+                />
+                <path
+                  d="M9.63812 23.6474V13.9224L20.0009 7.96536C23.4589 9.95105 26.9094 11.9367 30.3637 13.9224V28.9828H11.7795H2.15075C1.79889 28.184 1.43947 27.3965 1.14815 26.5788C-0.047411 23.2216 -0.308466 19.612 0.361198 16.1417C1.08761 12.3588 2.92257 8.75286 5.85849 5.83273C9.76676 1.94424 14.8857 0 20.0009 0C25.1236 0 30.2426 1.94424 34.1433 5.83273C38.0478 9.72498 40 14.823 40 19.9172C40 25.0152 38.0478 30.1169 34.1433 34.0016L20.0009 48.0861L5.85849 34.0054C5.26072 33.4101 4.6932 32.7695 4.17488 32.1026H8.37068L20.0009 43.6889L31.9375 31.8012C35.2291 28.5231 36.8787 24.2164 36.8787 19.9172C36.8787 15.618 35.2291 11.315 31.9375 8.03319C28.6422 4.74757 24.3178 3.10853 20.0009 3.10853C15.684 3.10853 11.3634 4.75134 8.06801 8.02942C5.58609 10.5012 4.04246 13.5381 3.42954 16.7182C2.83933 19.7627 3.10417 22.9315 4.21271 25.8629H27.2386V15.7084C24.821 14.3181 22.4109 12.9315 20.0009 11.5449L12.767 15.7084V23.6549H9.63812V23.6474Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="navigation-menu">
+            <div class="main-nav">
+              <nav class="navbar navbar-expand-lg main-nav">
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarNavDropdown"
+                  aria-controls="navbarNavDropdown"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                  class="collapse navbar-collapse main-nav-collapse"
+                  id="navbarNavDropdown"
+                >
+                  <ul class="navbar-nav main-nav-list">
+                    <li class="nav-item dropdown main-nav-list-item">
+                      <a
+                        class="
+                          nav-link
+                          dropdown-toggle
+                          main-nav-link
+                          text-transform
+                        "
+                        href="#"
+                        id="navbarDropdownMenuLink"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-expanded="false"
+                        >Home</a
+                      >
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdownMenuLink"
+                      >
+                        <div>
+                          <div>
+                            <a class="dropdown-item" href="#">Home 1</a>
+                            <a class="dropdown-item" href="#">Home 2</a>
+                            <a class="dropdown-item" href="#">Home 3</a>
+                            <a class="dropdown-item" href="#">Home 4</a>
+                            <a class="dropdown-item" href="#">Home 5</a>
+                          </div>
+                          <div>
+                            <a class="dropdown-item" href="#">Home 1</a>
+                            <a class="dropdown-item" href="#">Home 2</a>
+                            <a class="dropdown-item" href="#">Home 3</a>
+                            <a class="dropdown-item" href="#">Home 4</a>
+                            <a class="dropdown-item" href="#">Home 5</a>
+                          </div>
+                        </div>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown main-nav-list-item">
+                      <a
+                        href="#"
+                        class="
+                          nav-link
+                          dropdown-toggle
+                          main-nav-link
+                          text-transform
+                        "
+                        id="navbarDropdownMenuLink"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-expanded="false"
+                        >Properties</a
+                      >
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdownMenuLink"
+                      >
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Another action</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Something else here</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown main-nav-list-item">
+                      <a
+                        href="#"
+                        class="
+                          nav-link
+                          dropdown-toggle
+                          main-nav-link
+                          text-transform
+                        "
+                        id="navbarDropdownMenuLink"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-expanded="false"
+                        >Members</a
+                      >
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdownMenuLink"
+                      >
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Another action</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Something else here</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown main-nav-list-item">
+                      <a
+                        href="#"
+                        class="
+                          nav-link
+                          dropdown-toggle
+                          main-nav-link
+                          text-transform
+                        "
+                        id="navbarDropdownMenuLink"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-expanded="false"
+                        >Pages</a
+                      >
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdownMenuLink"
+                      >
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Another action</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Something else here</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item main-nav-list-item">
+                      <a href="#" class="nav-link main-nav-link text-transform"
+                        >Contact</a
+                      >
+                    </li>
+                    <li class="nav-item main-nav-list-item">
+                      <div class="nav-info main-nav-link">
+                        <ion-icon
+                          class="nav-icon"
+                          name="call-outline"
+                        ></ion-icon
+                        ><span>(+88) 1990 6886</span>
+                      </div>
+                    </li>
+                    <li class="nav-item main-nav-list-item">
+                      <div class="nav-info main-nav-link">
+                        <ion-icon
+                          class="nav-icon"
+                          name="person-outline"
+                        ></ion-icon>
+                        <span>Login / Register</span>
+                      </div>
+                    </li>
+                    <li class="nav-item main-nav-list-item nav-button">
+                      <div class="nav-info main-nav-link">
+                        <ion-icon
+                          class="nav-icon nav-button-icon"
+                          name="add-circle-outline"
+                        ></ion-icon>
+                        <span class="nav-button-text">CREATE LISTING</span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="hero-section">
+          <div class="hero">
+            <div class="hero-text-box">
+              <span class="subheading hero-subheading"
+                >It's great to be home!</span
+              >
+              <h1 class="heading-primary hero-heading">
+                Find Your Perfect Home
+              </h1>
+            </div>
+            <div class="hero-form-elements">
+              <ul class="hero-form-item">
+                <li><a href="#" class="hero-form-link">Rent</a></li>
+                <li><a href="#" class="hero-form-link">Sale</a></li>
+                <li><a href="#" class="hero-form-link">Sold</a></li>
+              </ul>
+            </div>
+            <div class="hero-form">
+              <div class="hero-form-group form-group">
+                <label for="typeform">TYPE</label>
+                <select class="form-control" id="typeform">
+                  <option value="" disabled selected hidden>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+              <div class="hero-form-group form-group">
+                <label for="locationsform">LOCATIONS</label>
+                <select class="form-control" id="locationsform">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+              <div class="hero-form-group form-group">
+                <label for="searchform">SEARCH</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="searchform"
+                  placeholder="Enter Keywords"
+                />
+              </div>
+              <div class="hero-search">
+                <div class="hero-search-logo">
+                  <ion-icon
+                    name="options-outline"
+                    class="hero-search-icon"
+                  ></ion-icon>
+                </div>
+                <div class="hero-search-text">Advanced Search</div>
+                <div class="hero-search-button">
+                  <button type="button" class="hero-search-btn">
+                    <ion-icon
+                      name="search-outline"
+                      class="hero-search-btn-icon"
+                    ></ion-icon
+                    ><span>Search</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Features in section -->
+    <section class="feature-in">
+      <div class="feature-in-text">
+        <h2 class="secondary-heading">Why Choose Us</h2>
+        <p class="secondary-paragrah">We provide full service at every step</p>
+      </div>
+      <div class="row feature-in-boxes">
+        <!-- feature box 1 -->
+        <div class="col-md-3">
+          <div class="card feature-card">
+            <div class="card-body feature-card-body">
+              <div class="feature-in-box-logo">
+                <ion-icon
+                  class="feature-in-box-icon"
+                  name="happy-outline"
+                ></ion-icon>
+              </div>
+              <div class="card-text-content">
+                <h5 class="card-title feature-card-title">
+                  Trusted By Thousands
+                </h5>
+                <p class="card-text feature-card-text">
+                  With over 1 million+ homes for sale available on the website,
+                  Trulia can match you with a house you will want to call home.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- feature box 2 -->
+        <div class="col-md-3">
+          <div class="card feature-card">
+            <div class="card-body feature-card-body">
+              <div class="feature-in-box-logo">
+                <ion-icon
+                  class="feature-in-box-icon"
+                  name="home-outline"
+                ></ion-icon>
+              </div>
+              <div class="card-text-content">
+                <h5 class="card-title feature-card-title">
+                  Wide Renge Of Properties
+                </h5>
+                <p class="card-text feature-card-text">
+                  With over 1 million+ homes for sale available on the website,
+                  Trulia can match you with a house you will want to call home.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- feature box 3 -->
+        <div class="col-md-3">
+          <div class="card feature-card">
+            <div class="card-body feature-card-body">
+              <div class="feature-in-box-logo">
+                <ion-icon
+                  class="feature-in-box-icon"
+                  name="calculator-outline"
+                ></ion-icon>
+              </div>
+              <div class="card-text-content">
+                <h5 class="card-title feature-card-title">
+                  Financing Made Easy
+                </h5>
+                <p class="card-text feature-card-text">
+                  With over 1 million+ homes for sale available on the website,
+                  Trulia can match you with a house you will want to call home.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- feature box 4 -->
+        <div class="col-md-3">
+          <div class="card feature-card">
+            <div class="card-body feature-card-body">
+              <div class="feature-in-box-logo">
+                <ion-icon
+                  class="feature-in-box-icon"
+                  name="map-outline"
+                ></ion-icon>
+              </div>
+              <div class="card-text-content">
+                <h5 class="card-title feature-card-title">See Neighborhoods</h5>
+                <p class="card-text feature-card-text">
+                  With over 1 million+ homes for sale available on the website,
+                  Trulia can match you with a house you will want to call home.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature in gallery section -->
+    <section class="feature-in-gallery">
+      <div class="feature-in-text">
+        <h2 class="secondary-heading">Explore Our Properties</h2>
+        <p class="secondary-paragrah">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit donec
+          sollicitudin
+        </p>
+      </div>
+      <div class="feature-in-box-gallery">
+        <!-- feature-in-gallery 1 -->
+        <div class="feature-in-box-gallery-slider">
+          <a href="#" class="feature-in-box-gallery-link">
+            <div class="feature-in-box-gallery-item">
+              <img src="images/cards/house.jpg" alt="House" />
+              <div class="feature-gallery-overlay">
+                <div class="feature-in-gallery-logo">
+                  <ion-icon
+                    class="feature-in-gallery-icon"
+                    name="storefront-outline"
+                  ></ion-icon
+                  ><span>House</span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- feature-in-gallery 2 -->
+        <div class="feature-in-box-gallery-slider">
+          <a href="#" class="feature-in-box-gallery-link">
+            <div class="feature-in-box-gallery-item">
+              <img src="images/cards/apartment.jpg" alt="Apartment" />
+              <div class="feature-gallery-overlay">
+                <div class="feature-in-gallery-logo">
+                  <ion-icon
+                    class="feature-in-gallery-icon"
+                    name="business-outline"
+                  ></ion-icon
+                  ><span>Apartment</span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- feature-in-gallery 3 -->
+        <div class="feature-in-box-gallery-slider">
+          <a href="#" class="feature-in-box-gallery-link">
+            <div class="feature-in-box-gallery-item">
+              <img src="images/cards/condo.jpg" alt="Condo" />
+              <div class="feature-gallery-overlay">
+                <div class="feature-in-gallery-logo">
+                  <ion-icon
+                    class="feature-in-gallery-icon"
+                    name="business-outline"
+                  ></ion-icon
+                  ><span>Condo</span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- feature-in-gallery 4 -->
+        <div class="feature-in-box-gallery-slider">
+          <a href="#" class="feature-in-box-gallery-link">
+            <div class="feature-in-box-gallery-item">
+              <img src="images/cards/villa.jpg" alt="Villa" />
+              <div class="feature-gallery-overlay">
+                <div class="feature-in-gallery-logo">
+                  <ion-icon
+                    class="feature-in-gallery-icon"
+                    name="storefront-outline"
+                  ></ion-icon
+                  ><span>Villa</span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- feature-in-gallery 5 -->
+        <div class="feature-in-box-gallery-slider">
+          <a href="#" class="feature-in-box-gallery-link">
+            <div class="feature-in-box-gallery-item">
+              <img src="images/cards/town.jpg" alt="Town" />
+              <div class="feature-gallery-overlay">
+                <div class="feature-in-gallery-logo">
+                  <ion-icon
+                    class="feature-in-gallery-icon"
+                    name="home-outline"
+                  ></ion-icon
+                  ><span>Town</span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trends Section -->
+    <section class="trends-section">
+      <div class="trends">
+        <div class="trends-overlay"></div>
+        <div class="trends-text-box">
+          <span class="subheading trends-subheading">Trends</span>
+          <h1 class="heading-primary trends-heading">
+            Vermont Farmhouse With Antique Jail Is <br />the Week's Most Popular
+            Home
+          </h1>
+          <button class="btn button-trends">Read More</button>
+        </div>
+      </div>
+      <section class="section_counting">
+        <div class="container">
+          <div class="counter">
+            <div class="count_number">
+              <span class="count_comma">56180</span>
+            </div>
+            <div class="count_number">
+              <span class="count_comma">4810</span>
+            </div>
+            <div class="count_number">
+              <span class="count_decimal" id="count_decimal">35.469</span>
+            </div>
+            <div class="count_number">
+              <span class="count_comma">2918</span>
+            </div>
+          </div>
+
+          <div class="count_info">
+            <div>
+              <span class="count_details">homes for sale</span>
+            </div>
+            <div>
+              <span class="count_details">open houses</span>
+            </div>
+            <div>
+              <span class="count_details">recently sold</span>
+            </div>
+            <div>
+              <span class="count_details">price reduced</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- <div class="trend-calculations">
+        <div class="trend-calculation-box">
+          <h5 class="trend-calculations-num">56,180</h5>
+          <span class="trend-calculations-heading">Homes for sale</span>
+        </div>
+        <div class="trend-calculation-box">
+          <h5 class="trend-calculations-num">4,130</h5>
+          <span class="trend-calculations-heading">open houses</span>
+        </div>
+        <div class="trend-calculation-box">
+          <h5 class="trend-calculations-num">35.469</h5>
+          <span class="trend-calculations-heading">Recently sold</span>
+        </div>
+        <div class="trend-calculation-box">
+          <h5 class="trend-calculations-num">2,918</h5>
+          <span class="trend-calculations-heading">Priced reduced</span>
+        </div>
+      </div> -->
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonial-section">
+      <div class="testimonial-text">
+        <h2 class="secondary-heading">Our Testimonials</h2>
+        <p class="secondary-paragrah">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        </p>
+      </div>
+      <div class="testimonial-boxes">
+        <div class="testimonial-box-content">
+          <div class="row testimonials">
+            <!-- Testimonial 1 -->
+            <div class="col-md-3">
+              <div class="card testimonial-card">
+                <div class="card-body testimonial-card-body">
+                  <p class="card-text testimonial-card-text">
+                    " I believe in lifelong learning and Skola is a great place
+                    to learn from experts. I've learned a lot and recommend it
+                    to all my friends "
+                  </p>
+                </div>
+              </div>
+              <div class="avatar card-avatar">
+                <img
+                  class="avatar-img"
+                  src="images/5-400x400.jpg"
+                  alt="Marvin McKinney"
+                />
+                <div class="avatar-info">
+                  <h3 class="avatar-name">Marvin McKinney</h3>
+                  <div class="avatar-property">Designer</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="col-md-3">
+              <div class="card testimonial-card">
+                <div class="card-body testimonial-card-body">
+                  <p class="card-text testimonial-card-text">
+                    " I believe in lifelong learning and Skola is a great place
+                    to learn from experts. I've learned a lot and recommend it
+                    to all my friends "
+                  </p>
+                </div>
+              </div>
+              <div class="avatar card-avatar">
+                <img
+                  class="avatar-img"
+                  src="images/agent1.jpg"
+                  alt="Albert Flores"
+                />
+                <div class="avatar-info">
+                  <h3 class="avatar-name">Albert Flores</h3>
+                  <div class="avatar-property">Marketing</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="col-md-3">
+              <div class="card testimonial-card">
+                <div class="card-body testimonial-card-body">
+                  <p class="card-text testimonial-card-text">
+                    " I believe in lifelong learning and Skola is a great place
+                    to learn from experts. I've learned a lot and recommend it
+                    to all my friends "
+                  </p>
+                </div>
+              </div>
+              <div class="avatar card-avatar">
+                <img
+                  class="avatar-img"
+                  src="images/8-405x420.jpg"
+                  alt="Robert Fox"
+                />
+                <div class="avatar-info">
+                  <h3 class="avatar-name">Robert Fox</h3>
+                  <div class="avatar-property">Project Manager</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 4 -->
+            <div class="col-md-3">
+              <div class="card testimonial-card">
+                <div class="card-body testimonial-card-body">
+                  <p class="card-text testimonial-card-text">
+                    " I believe in lifelong learning and Skola is a great place
+                    to learn from experts. I've learned a lot and recommend it
+                    to all my friends "
+                  </p>
+                </div>
+              </div>
+              <div class="avatar card-avatar">
+                <img
+                  class="avatar-img"
+                  src="images/12-400x400.jpg"
+                  alt="Guy Hawkins"
+                />
+                <div class="avatar-info">
+                  <h3 class="avatar-name">Guy Hawkins</h3>
+                  <div class="avatar-property">Developer</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+      <div class="gallery-text">
+        <h2 class="secondary-heading">Explore Cities</h2>
+        <p class="secondary-paragrah">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        </p>
+      </div>
+      <div class="image-gallery">
+        <!-- feature-in-gallery 1 -->
+        <div class="image-gallery-content image-gallery-content1">
+          <a href="#" class="image-gallery-link">
+            <div class="image-gallery-item">
+              <img src="images/gallery/los.jpg" alt="House" />
+              <div class="image-gallery-overlay">
+                <div class="image-gallery-in">
+                  <h4>Amsterdam</h4>
+                  <p>0 Properties</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- feature-in-gallery 2 -->
+        <div class=" image-gallery-content image-gallery-content2">
+          <a href="#" class="image-gallery-link">
+            <div class="image-gallery-item">
+              <img src="images/gallery/newyork.jpg" alt="House" />
+              <div class="image-gallery-overlay">
+                <div class="image-gallery-in">
+                  <h4>New York</h4>
+                  <p>9 Properties</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- feature-in-gallery 3 -->
+        <div class="image-gallery-content image-gallery-content3">
+          <a href="#" class="image-gallery-link">
+            <div class="image-gallery-item image-gallery-item3">
+              <img src="images/gallery/florida.jpg" alt="House" />
+              <div class="image-gallery-overlay">
+                <div class="image-gallery-in image-gallery-in3">
+                  <h4>Amsterdam</h4>
+                  <p>0 Properties</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- feature-in-gallery 4 -->
+        <div class="image-gallery-content image-gallery-content4">
+          <a href="#" class="image-gallery-link">
+            <div class="image-gallery-item">
+              <img src="images/gallery/miami-1.jpg" alt="House" />
+              <div class="image-gallery-overlay">
+                <div class="image-gallery-in">
+                  <h4>Miami</h4>
+                  <p>1 Property</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- feature-in-gallery 5 -->
+        <div class="image-gallery-content image-gallery-content5">
+          <a href="#" class="image-gallery-link">
+            <div class="image-gallery-item">
+              <img src="images/gallery/london.jpg" alt="House" />
+              <div class="image-gallery-overlay">
+                <div class="image-gallery-in">
+                  <h4>London</h4>
+                  <p>2 Properties</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- feature-in-gallery 6 -->
+        <div class="image-gallery-content image-gallery-content6">
+          <a href="#" class="image-gallery-link">
+            <div class="image-gallery-item">
+              <img src="images/gallery/paris.jpg" alt="House" />
+              <div class="image-gallery-overlay">
+                <div class="image-gallery-in">
+                  <h4>Paris</h4>
+                  <p>1 Property</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- feature-in-gallery 7 -->
+        <div class="image-gallery-content image-gallery-content7">
+          <a href="#" class="image-gallery-link">
+            <div class="image-gallery-item">
+              <img src="images/gallery/Istanbul.jpg" alt="House" />
+              <div class="image-gallery-overlay">
+                <div class="image-gallery-in">
+                  <h4>Berlin</h4>
+                  <p>0 Properties</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+    </section>
+
+    <!-- Agents sections -->
+    <section class="agent-section">
+      <div class="agent-text">
+        <h2 class="secondary-heading">Meet Our Agents</h2>
+        <p class="secondary-paragrah">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        </p>
+      </div>
+      <div class="agent-boxes">
+        <!-- Agent 1 -->
+        <div class="agent-box-content">
+          <div class="agents">
+            <div class="card agent-card">
+              <a href="#" class="agent-card-img">
+                <div class="agent-image-wrapper">
+                  <img
+                    class="card-img-top agent-img"
+                    src="images/5.jpg"
+                    alt="Agent 1"
+                  />
+                </div>
+              </a>
+              <div class="agent-social-icons">
+                <a href="#" class="agent-icon-link">
+                  <ion-icon class="agent-icon" name="logo-facebook"></ion-icon
+                ></a>
+                <a href="#" class="agent-icon-link">
+                  <ion-icon class="agent-icon" name="logo-twitter"></ion-icon
+                ></a>
+                <a href="#" class="agent-icon-link">
+                  <ion-icon class="agent-icon" name="logo-instagram"></ion-icon
+                ></a>
+                <a href="#" class="agent-icon-link">
+                  <ion-icon class="agent-icon" name="logo-linkedin"></ion-icon
+                ></a>
+              </div>
+            </div>
+            <div class="agent-info">
+              <h2 class="avatar-name agent-name"><a href="#">Agent</a></h2>
+              <div class="agent-property">Leader Houzing</div>
+            </div>
+          </div>
+        </div>
+        <!-- Agent 2 -->
+        <div class="agent-box-content">
+          <div class="agents">
+            <div class="card agent-card">
+              <a href="#" class="agent-card-img">
+                <div class="agent-image-wrapper">
+                  <img
+                    class="card-img-top agent-img"
+                    src="images/agent1.jpg"
+                    alt="John Doe"
+                  />
+                </div>
+              </a>
+              <div class="agent-social-icons">
+                <a href="#" class="agent-icon-link">
+                  <ion-icon class="agent-icon" name="logo-facebook"></ion-icon
+                ></a>
+                <a href="#" class="agent-icon-link">
+                  <ion-icon class="agent-icon" name="logo-twitter"></ion-icon
+                ></a>
+                <a href="#" class="agent-icon-link">
+                  <ion-icon class="agent-icon" name="logo-instagram"></ion-icon
+                ></a>
+                <a href="#" class="agent-icon-link">
+                  <ion-icon class="agent-icon" name="logo-linkedin"></ion-icon
+                ></a>
+              </div>
+            </div>
+            <div class="agent-info">
+              <h2 class="avatar-name agent-name"><a href="#">John Doe</a></h2>
+              <div class="agent-property">Houzing Home</div>
+            </div>
+          </div>
+        </div>
+        <!-- Agent 3 -->
+        <div class="agent-box-content">
+          <div class="agents">
+            <div class="card agent-card">
+              <a href="#" class="agent-card-img">
+                <div class="agent-image-wrapper">
+                  <img
+                    class="card-img-top agent-img"
+                    src="images/12.jpg"
+                    alt="Robert Fox"
+                  />
+                </div>
+              </a>
+              <div class="agent-social-icons">
+                <a href="#" class="agent-icon-link">
+                  <ion-icon class="agent-icon" name="logo-facebook"></ion-icon
+                ></a>
+                <a href="#" class="agent-icon-link">
+                  <ion-icon class="agent-icon" name="logo-twitter"></ion-icon
+                ></a>
+                <a href="#" class="agent-icon-link">
+                  <ion-icon class="agent-icon" name="logo-instagram"></ion-icon
+                ></a>
+                <a href="#" class="agent-icon-link">
+                  <ion-icon class="agent-icon" name="logo-linkedin"></ion-icon
+                ></a>
+              </div>
+            </div>
+            <div class="agent-info">
+              <h2 class="avatar-name agent-name"><a href="#">Robert Fox</a></h2>
+              <div class="agent-property">Leader Houzing</div>
+            </div>
+          </div>
+        </div>
+        <!-- Agent 4 -->
+        <div class="agent-box-content">
+          <div class="agents">
+            <div class="card agent-card">
+              <a href="#" class="agent-card-img">
+                <div class="agent-image-wrapper">
+                  <img
+                    class="card-img-top agent-img"
+                    src="images/9-400x400.jpg"
+                    alt="Esther Howard"
+                  />
+                </div>
+              </a>
+              <div class="agent-social-icons">
+                <a href="#" class="agent-icon-link">
+                  <ion-icon class="agent-icon" name="logo-facebook"></ion-icon
+                ></a>
+                <a href="#" class="agent-icon-link">
+                  <ion-icon class="agent-icon" name="logo-twitter"></ion-icon
+                ></a>
+                <a href="#" class="agent-icon-link">
+                  <ion-icon class="agent-icon" name="logo-instagram"></ion-icon
+                ></a>
+                <a href="#" class="agent-icon-link">
+                  <ion-icon class="agent-icon" name="logo-linkedin"></ion-icon
+                ></a>
+              </div>
+            </div>
+            <div class="agent-info">
+              <h2 class="avatar-name agent-name">
+                <a href="#">Esther Howard</a>
+              </h2>
+              <div class="agent-property">Marketing</div>
+            </div>
+          </div>
+        </div>
+        <!-- Agent 5 -->
+        <div class="agent-box-content">
+          <div class="agents">
+            <div class="card agent-card">
+              <a href="#" class="agent-card-img">
+                <div class="agent-image-wrapper">
+                  <img
+                    class="card-img-top agent-img"
+                    src="images/8.jpg"
+                    alt="Brooklyn Simmons"
+                  />
+                </div>
+              </a>
+              <div class="agent-social-icons">
+                <a href="#" class="agent-icon-link">
+                  <ion-icon class="agent-icon" name="logo-facebook"></ion-icon
+                ></a>
+                <a href="#" class="agent-icon-link">
+                  <ion-icon class="agent-icon" name="logo-twitter"></ion-icon
+                ></a>
+                <a href="#" class="agent-icon-link">
+                  <ion-icon class="agent-icon" name="logo-instagram"></ion-icon
+                ></a>
+                <a href="#" class="agent-icon-link">
+                  <ion-icon class="agent-icon" name="logo-linkedin"></ion-icon
+                ></a>
+              </div>
+            </div>
+            <div class="agent-info">
+              <h2 class="avatar-name agent-name">
+                <a href="#">Brooklyn Simmons</a>
+              </h2>
+              <div class="agent-property">Houzing Home</div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+    <!-- Blog Section -->
+    <section class="blog-section">
+      <div class="feature-in-text">
+        <h2 class="secondary-heading">From Our Blog</h2>
+        <p class="secondary-paragrah">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit
+        </p>
+      </div>
+      <div class="blogs">
+        <div class="blog-boxes row">
+          <!-- blog 1 -->
+          <div class="col-md-3">
+            <div class="blog-card card">
+              <div class="blog-card-image-overlay">
+                <img
+                  class="blog-img card-img-top"
+                  src="images/cards/p12-414x264.jpg"
+                  alt="Living room"
+                />
+              </div>
+              <div class="blog-tag">
+                <a href="#">Apartment</a>
+              </div>
+              <div class="blog-body card-body">
+                <div class="blog-role">
+                  <div class="blog-logo">
+                    <ion-icon
+                      class="blog-icon"
+                      name="person-outline"
+                    ></ion-icon>
+                    <p class="blog-paragrah">admin</p>
+                  </div>
+                  <div class="blog-logo">
+                    <ion-icon
+                      class="blog-icon"
+                      name="calendar-clear-outline"
+                    ></ion-icon>
+                    <p class="blog-paragrah">June 3, 2021</p>
+                  </div>
+                </div>
+                <h5 class="blog-title card-title">
+                  <a href="#">New Apartment Nice in the Best Canadian Cities</a>
+                </h5>
+                <p class="blog-text card-text">
+                  Duis mattis laoreet neque, et ornare neque sollicitudin at.
+                  Proin sagittis dolor sed ...
+                </p>
+                <a href="#" class="blog-link">Read More</a>
+              </div>
+            </div>
+          </div>
+          <!-- blog 2 -->
+          <div class="col-md-3">
+            <div class="blog-card card">
+              <div class="blog-card-image-overlay">
+                <img
+                  class="blog-img card-img-top"
+                  src="images/cards/p9-414x264.jpg"
+                  alt="Living room"
+                />
+              </div>
+              <div class="blog-tag">
+                <a href="#">Town House</a>
+              </div>
+              <div class="blog-body card-body">
+                <div class="blog-role">
+                  <div class="blog-logo">
+                    <ion-icon
+                      class="blog-icon"
+                      name="person-outline"
+                    ></ion-icon>
+                    <p class="blog-paragrah">admin</p>
+                  </div>
+                  <div class="blog-logo">
+                    <ion-icon
+                      class="blog-icon"
+                      name="calendar-clear-outline"
+                    ></ion-icon>
+                    <p class="blog-paragrah">June 3, 2021</p>
+                  </div>
+                </div>
+                <h5 class="blog-title card-title">
+                  <a href="#">New Apartment Nice in the Best Canadian Cities</a>
+                </h5>
+                <p class="blog-text card-text">
+                  Duis mattis laoreet neque, et ornare neque sollicitudin at.
+                  Proin sagittis dolor sed ...
+                </p>
+                <a href="#" class="blog-link">Read More</a>
+              </div>
+            </div>
+          </div>
+          <!-- blog 3 -->
+          <div class="col-md-3">
+            <div class="blog-card card">
+              <div class="blog-card-image-overlay">
+                <img
+                  class="blog-img card-img-top"
+                  src="images/cards/p8-414x264.jpg"
+                  alt="Living room"
+                />
+              </div>
+
+              <div class="blog-tag">
+                <a href="#">Family House</a>
+              </div>
+              <div class="blog-body card-body">
+                <div class="blog-role">
+                  <div class="blog-logo">
+                    <ion-icon
+                      class="blog-icon"
+                      name="person-outline"
+                    ></ion-icon>
+                    <p class="blog-paragrah">admin</p>
+                  </div>
+                  <div class="blog-logo">
+                    <ion-icon
+                      class="blog-icon"
+                      name="calendar-clear-outline"
+                    ></ion-icon>
+                    <p class="blog-paragrah">June 3, 2021</p>
+                  </div>
+                </div>
+                <h5 class="blog-title card-title">
+                  <a href="#">New Apartment Nice in the Best Canadian Cities</a>
+                </h5>
+                <p class="blog-text card-text">
+                  Duis mattis laoreet neque, et ornare neque sollicitudin at.
+                  Proin sagittis dolor sed ...
+                </p>
+                <a href="#" class="blog-link">Read More</a>
+              </div>
+            </div>
+          </div>
+          <!-- blog 4 -->
+          <div class="col-md-3">
+            <div class="blog-card card">
+              <div class="blog-card-image-overlay">
+                <img
+                  class="blog-img card-img-top"
+                  src="images/cards/p6-414x264.jpg"
+                  alt="Living room"
+                />
+              </div>
+
+              <div class="blog-tag">
+                <a href="#">Modern Villa</a>
+              </div>
+              <div class="blog-body card-body">
+                <div class="blog-role">
+                  <div class="blog-logo">
+                    <ion-icon
+                      class="blog-icon"
+                      name="person-outline"
+                    ></ion-icon>
+                    <p class="blog-paragrah">admin</p>
+                  </div>
+                  <div class="blog-logo">
+                    <ion-icon
+                      class="blog-icon"
+                      name="calendar-clear-outline"
+                    ></ion-icon>
+                    <p class="blog-paragrah">June 3, 2021</p>
+                  </div>
+                </div>
+                <h5 class="blog-title card-title">
+                  <a href="#">New Apartment Nice in the Best Canadian Cities</a>
+                </h5>
+                <p class="blog-text card-text">
+                  Duis mattis laoreet neque, et ornare neque sollicitudin at.
+                  Proin sagittis dolor sed ...
+                </p>
+                <a href="#" class="blog-link">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Register section -->
+    <section class="register-section">
+      <div class="register-text">
+        <h2 class="secondary-heading register-heading">
+          Become a Real Estate Agent
+        </h2>
+        <p class="secondary-paragrah register-paragrah">
+          We only work with the best companies around the globe
+        </p>
+        <button class="btn register-button">Register now</button>
+      </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer-section">
+      <div class="footer-section-container">
+        <!-- Footer content 1 -->
+        <div class="footer-content contact-content">
+          <div class="footer-content-heading">
+            <h2 class="footer-content-title">Contact Us</h2>
+          </div>
+          <div class="footer-content-text">
+            <div class="footer-sub">
+              <div class="sub-logo">
+                <ion-icon class="sub-icon" name="location-outline"></ion-icon>
+              </div>
+              <div class="sub-text">
+                329 Queensberry Street, North <br />Melbourne VIC 3051,
+                Australia.
+              </div>
+            </div>
+            <div class="footer-sub">
+              <div class="sub-logo">
+                <ion-icon class="sub-icon" name="call-outline"></ion-icon>
+              </div>
+              <div class="sub-text">123 456 7890</div>
+            </div>
+            <div class="footer-sub">
+              <div class="sub-logo">
+                <ion-icon class="sub-icon" name="mail-outline"></ion-icon>
+              </div>
+              <div class="sub-text">support@example.com</div>
+            </div>
+          </div>
+          <div class="footer-links">
+            <ul class="footer-link-list">
+              <li class="footer-link-item">
+                <a href="#" class="footer-link">
+                  <ion-icon
+                    class="sub-icon footer-link-icon"
+                    name="logo-facebook"
+                  ></ion-icon
+                ></a>
+              </li>
+              <li class="footer-link-item">
+                <a href="#" class="footer-link"
+                  ><ion-icon
+                    class="sub-icon footer-link-icon"
+                    name="logo-twitter"
+                  ></ion-icon
+                ></a>
+              </li>
+              <li class="footer-link-item">
+                <a href="#" class="footer-link"
+                  ><ion-icon
+                    class="sub-icon footer-link-icon"
+                    name="logo-instagram"
+                  ></ion-icon
+                ></a>
+              </li>
+              <li class="footer-link-item">
+                <a href="#" class="footer-link"
+                  ><ion-icon
+                    class="sub-icon footer-link-icon"
+                    name="logo-linkedin"
+                  ></ion-icon
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Footer content 2 -->
+        <div class="footer-content discover-content">
+          <div class="footer-content-heading">
+            <h2 class="footer-content-title">Discover</h2>
+          </div>
+          <div class="footer-country-links">
+            <ul class="country-link-list">
+              <li class="country-link-item">
+                <a href="#" class="country-link">New York</a>
+              </li>
+              <li class="country-link-item">
+                <a href="#" class="country-link">Miami</a>
+              </li>
+              <li class="country-link-item">
+                <a href="#" class="country-link">Paris</a>
+              </li>
+              <li class="country-link-item">
+                <a href="#" class="country-link">London</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Footer content 3 -->
+        <div class="footer-content footer-content-middle category-content">
+          <div class="footer-content-heading">
+            <h2 class="footer-content-title">Lists by Category</h2>
+          </div>
+          <div class="footer-country-links">
+            <ul class="country-link-list">
+              <li class="country-link-item">
+                <a href="#" class="country-link">Apartment</a>
+              </li>
+              <li class="country-link-item">
+                <a href="#" class="country-link">Condo</a>
+              </li>
+              <li class="country-link-item">
+                <a href="#" class="country-link">House</a>
+              </li>
+              <li class="country-link-item">
+                <a href="#" class="country-link">Offices</a>
+              </li>
+              <li class="country-link-item">
+                <a href="#" class="country-link">Retail</a>
+              </li>
+              <li class="country-link-item">
+                <a href="#" class="country-link">Villa</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Footer content 4 -->
+        <div class="footer-content footer-content-middle quick-link-content">
+          <div class="footer-content-heading">
+            <h2 class="footer-content-title">Quick Links</h2>
+          </div>
+          <div class="footer-country-links">
+            <ul class="country-link-list">
+              <li class="country-link-item">
+                <a href="#" class="country-link">New Articles</a>
+              </li>
+              <li class="country-link-item">
+                <a href="#" class="country-link">About Us</a>
+              </li>
+              <li class="country-link-item">
+                <a href="#" class="country-link">Terms and Condition</a>
+              </li>
+              <li class="country-link-item">
+                <a href="#" class="country-link">User's Guide</a>
+              </li>
+              <li class="country-link-item">
+                <a href="#" class="country-link">Support Center</a>
+              </li>
+              <li class="country-link-item">
+                <a href="#" class="country-link">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Footer content 5 -->
+        <div class="footer-content">
+          <div class="footer-content-heading">
+            <h2 class="footer-content-title">Subscribe</h2>
+          </div>
+          <div class="footer-content-paragraph">
+            <p class="footer-content-paragraph-text">
+              We don’t send spam so don’t worry.
+            </p>
+          </div>
+          <div class="footer-form">
+            <form class="footer-form-content">
+              <div class="form-group footer-form-group">
+                <!-- <label for="footerForm"></label> -->
+                <input
+                  type="email"
+                  class="form-control"
+                  id="footerForm"
+                  placeholder="Enter your email"
+                />
+                <span class="footer-search"
+                  ><button class="btn-submit footer-button" type="submit">
+                    <ion-icon
+                      class="footer-button-icon"
+                      name="navigate-outline"
+                    ></ion-icon></button
+                ></span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer-line -->
+      <hr class="footer-line" />
+
+      <!-- sub-footer -->
+      <div class="sub-footer">
+        <div class="sub-footer-content">
+          <div class="copyright-content">
+            <h5 class="copyright-heading">
+              Copyright &copy; 2021 CreativeLayers. All Right Reserved.
+            </h5>
+          </div>
+        </div>
+        <div class="brand footer-brand">
+          <a class="brand-name footer-brand-name" href="#"
+            ><svg
+              class="logo"
+              width="155"
+              height="49"
+              viewBox="0 0 155 49"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M66.4122 14.3608H70.0743V32H66.4122V24.749H58.9537V32H55.2916V14.3608H58.9537V21.563H66.4122V14.3608ZM79.962 32.2441C78.6274 32.2441 77.4433 31.9878 76.4098 31.4751C75.3762 30.9624 74.5624 30.2096 73.9684 29.2168C73.3824 28.224 73.0894 27.0562 73.0894 25.7134C73.0894 23.7033 73.7242 22.1164 74.9937 20.9526C76.2633 19.7889 77.9194 19.207 79.962 19.207C82.0128 19.207 83.6729 19.7889 84.9425 20.9526C86.212 22.1164 86.8468 23.7033 86.8468 25.7134C86.8468 27.7316 86.212 29.3267 84.9425 30.4985C83.6729 31.6623 82.0128 32.2441 79.962 32.2441ZM79.9254 29.4487C80.9508 29.4487 81.7768 29.1069 82.4034 28.4233C83.0382 27.7397 83.3556 26.8364 83.3556 25.7134C83.3556 24.5903 83.0382 23.687 82.4034 23.0034C81.7768 22.3198 80.9508 21.978 79.9254 21.978C78.9407 21.978 78.135 22.3239 77.5084 23.0156C76.8899 23.6992 76.5807 24.5985 76.5807 25.7134C76.5807 26.8283 76.8899 27.7316 77.5084 28.4233C78.135 29.1069 78.9407 29.4487 79.9254 29.4487ZM97.7843 19.4512H101.3V32H97.9674L97.8819 30.4863C96.9542 31.6582 95.6236 32.2441 93.8902 32.2441C92.3847 32.2441 91.2291 31.8698 90.4234 31.1211C89.6178 30.3643 89.2149 29.29 89.2149 27.8984V19.4512H92.7428V27.1416C92.7428 27.9229 92.9503 28.4966 93.3653 28.8628C93.7885 29.229 94.3338 29.4121 95.0011 29.4121C95.8149 29.4121 96.4781 29.1761 96.9908 28.7041C97.5116 28.224 97.7761 27.4468 97.7843 26.3726V19.4512ZM114.105 19.4512L108.587 29.29H113.934V32H103.595L109.088 22.1611H104.022V19.4512H114.105ZM118.316 17.5713C117.755 17.5713 117.275 17.376 116.876 16.9854C116.477 16.5866 116.278 16.1064 116.278 15.5449C116.278 14.9915 116.477 14.5195 116.876 14.1289C117.283 13.7301 117.763 13.5308 118.316 13.5308C118.862 13.5308 119.334 13.7301 119.733 14.1289C120.131 14.5195 120.331 14.9915 120.331 15.5449C120.331 16.1064 120.131 16.5866 119.733 16.9854C119.334 17.376 118.862 17.5713 118.316 17.5713ZM116.522 32V19.4512H120.062V32H116.522ZM131.109 19.207C132.615 19.207 133.771 19.5854 134.576 20.3423C135.382 21.091 135.785 22.1611 135.785 23.5527V32H132.257V24.3096C132.257 23.5202 132.045 22.9424 131.622 22.5762C131.207 22.21 130.67 22.0269 130.011 22.0269C129.628 22.0269 129.278 22.0798 128.961 22.1855C128.644 22.2913 128.351 22.4582 128.082 22.686C127.814 22.9058 127.602 23.2191 127.447 23.626C127.301 24.0329 127.224 24.5171 127.215 25.0786V32H123.7V19.4512H127.215V20.8428C128.143 19.7523 129.441 19.207 131.109 19.207ZM147.845 19.4512H151.19V31.0601C151.19 32.2563 151.031 33.298 150.714 34.1851C150.405 35.0721 149.953 35.7842 149.359 36.3213C148.765 36.8665 148.069 37.2694 147.272 37.5298C146.474 37.7902 145.563 37.9204 144.537 37.9204C141.225 37.9204 139.068 36.6224 138.067 34.0264L140.985 32.7812C141.343 33.6032 141.795 34.2095 142.34 34.6001C142.885 34.9907 143.573 35.186 144.403 35.186C146.576 35.186 147.662 33.8962 147.662 31.3164V29.8516C147.288 30.3643 146.759 30.7793 146.075 31.0967C145.4 31.4059 144.659 31.5605 143.854 31.5605C143.08 31.5605 142.344 31.4141 141.644 31.1211C140.952 30.82 140.346 30.4049 139.825 29.876C139.304 29.3389 138.889 28.6797 138.58 27.8984C138.279 27.1172 138.129 26.2708 138.129 25.3594C138.129 24.4398 138.279 23.5934 138.58 22.8203C138.889 22.0391 139.304 21.388 139.825 20.8672C140.354 20.3464 140.965 19.9395 141.656 19.6465C142.356 19.3535 143.097 19.207 143.878 19.207C144.741 19.207 145.514 19.382 146.197 19.7319C146.889 20.0737 147.41 20.5335 147.76 21.1113L147.845 19.4512ZM142.45 27.752C143.076 28.3949 143.845 28.7163 144.757 28.7163C145.668 28.7163 146.437 28.3908 147.064 27.7397C147.691 27.0887 148.004 26.2952 148.004 25.3594C148.004 24.4154 147.691 23.6178 147.064 22.9668C146.446 22.3158 145.677 21.9902 144.757 21.9902C143.829 21.9902 143.056 22.3117 142.438 22.9546C141.827 23.5894 141.522 24.391 141.522 25.3594C141.522 26.3115 141.831 27.109 142.45 27.752Z"
+                fill="white"
+              />
+              <path
+                d="M9.63812 23.6474V13.9224L20.0009 7.96536C23.4589 9.95105 26.9094 11.9367 30.3637 13.9224V28.9828H11.7795H2.15075C1.79889 28.184 1.43947 27.3965 1.14815 26.5788C-0.047411 23.2216 -0.308466 19.612 0.361198 16.1417C1.08761 12.3588 2.92257 8.75286 5.85849 5.83273C9.76676 1.94424 14.8857 0 20.0009 0C25.1236 0 30.2426 1.94424 34.1433 5.83273C38.0478 9.72498 40 14.823 40 19.9172C40 25.0152 38.0478 30.1169 34.1433 34.0016L20.0009 48.0861L5.85849 34.0054C5.26072 33.4101 4.6932 32.7695 4.17488 32.1026H8.37068L20.0009 43.6889L31.9375 31.8012C35.2291 28.5231 36.8787 24.2164 36.8787 19.9172C36.8787 15.618 35.2291 11.315 31.9375 8.03319C28.6422 4.74757 24.3178 3.10853 20.0009 3.10853C15.684 3.10853 11.3634 4.75134 8.06801 8.02942C5.58609 10.5012 4.04246 13.5381 3.42954 16.7182C2.83933 19.7627 3.10417 22.9315 4.21271 25.8629H27.2386V15.7084C24.821 14.3181 22.4109 12.9315 20.0009 11.5449L12.767 15.7084V23.6549H9.63812V23.6474Z"
+                fill="white"
+              />
+            </svg>
+          </a>
+        </div>
+        <div class="subfooter-links">
+          <ul class="subfooter-link-list">
+            <li class="subfooter-link-item">
+              <a href="#" class="subfooter-link">Home</a>
+            </li>
+            <li class="subfooter-link-item">
+              <a href="#" class="subfooter-link">Site Map</a>
+            </li>
+            <li class="subfooter-link-item">
+              <a href="#" class="subfooter-link">Privacy policy</a>
+            </li>
+            <li class="subfooter-link-item">
+              <a href="#" class="subfooter-link">Cookie Policy</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".count_comma").each(function () {
+          $(this)
+            .prop("Counter", 0)
+            .animate(
+              {
+                Counter: $(this).text(),
+              },
+              {
+                duration: 2000,
+                easing: "swing",
+                step: function (now) {
+                  $(this).text(commaSeparateNumber(Math.ceil(now)));
+                },
+              }
+            );
+        });
+
+        function commaSeparateNumber(val) {
+          while (/(\d+)(\d{3})/.test(val.toString())) {
+            val = val.toString().replace(/(\d+)(\d{3})/, "$1" + "," + "$2");
+          }
+          return val;
+        }
+      });
+
+      var currentNumber = $("#count_decimal").text();
+
+      $({ numberValue: 0.0 }).animate(
+        { numberValue: currentNumber },
+        {
+          duration: 2000,
+          easing: "swing",
+          step: function (now) {
+            $("#count_decimal").text(now.toFixed(3));
+          },
+        }
+      );
+    </script>
+  </body>
+</html>
